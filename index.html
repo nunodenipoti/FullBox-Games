@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-br" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FullBox Games: loja de jogos online com lançamentos, notícias e ranking." />
+    <title>Início | FullBox Games</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .destaque-txt {
+        color: var(--destaque);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">FullBox Games</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link ativo" href="index.html" aria-current="page">Início</a></li>
+              <li class="nav-item"><a class="nav-link" href="loja.html">Loja</a></li>
+              <li class="nav-item"><a class="nav-link" href="blog.html">Notícias</a></li>
+              <li class="nav-item"><a class="nav-link" href="ranking.html">Ranking</a></li>
+              <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+              <li class="nav-item"><a class="nav-link" href="https://store.steampowered.com" target="_blank" rel="noopener">Steam ↗</a></li>
+              <li class="nav-item"><a class="nav-link" href="carrinho.html">Carrinho <span class="badge-gb" id="badge-carrinho">0</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="login.html">Entrar</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1>Os melhores jogos, <span class="destaque-txt">em um só lugar</span>.</h1>
+        <p style="max-width: 540px; margin: 1rem auto">Uma loja simples e direta para encontrar seu próximo jogo.</p>
+        <a class="btn btn-gb" href="loja.html">Ir para a loja</a>
+      </section>
+      <div class="container-gb">
+        <section>
+          <h2>Destaques</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <article class="card h-100">
+                <img src="img/jogo-1.jpg" alt="Capa de Grand Theft Auto VI" />
+                <div class="card-body">
+                  <h3>Grand Theft Auto VI</h3>
+                  <p>Explore Vice City em uma aventura de mundo aberto repleta de ação.</p>
+                  <p class="preco">R$ 449,90</p>
+                  <a class="btn btn-gb claro" href="produto.html?id=1">Ver jogo</a>
+                </div>
+              </article>
+            </div>
+            <div class="col">
+              <article class="card h-100">
+                <img src="img/jogo-2.jpg" alt="Capa de EA Sports FC 27" />
+                <div class="card-body">
+                  <h3>EA Sports FC 27</h3>
+                  <p>Monte seu time dos sonhos e dispute partidas com clubes do mundo todo.</p>
+                  <p class="preco">R$ 349,90</p>
+                  <a class="btn btn-gb claro" href="produto.html?id=2">Ver jogo</a>
+                </div>
+              </article>
+            </div>
+            <div class="col">
+              <article class="card h-100">
+                <img src="img/jogo-3.jpg" alt="Capa de Call of Duty: Modern Warfare IV" />
+                <div class="card-body">
+                  <h3>Call of Duty: Modern Warfare IV</h3>
+                  <p>Campanha cinematográfica e multiplayer intenso em operações militares.</p>
+                  <p class="preco">R$ 349,90</p>
+                  <a class="btn btn-gb claro" href="produto.html?id=3">Ver jogo</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Galeria</h2>
+          <div class="galeria">
+            <img src="img/jogo-1.jpg" alt="Grand Theft Auto VI" loading="lazy" />
+            <img src="img/jogo-2.jpg" alt="EA Sports FC 27" loading="lazy" />
+            <img src="img/jogo-3.jpg" alt="Call of Duty: Modern Warfare IV" loading="lazy" />
+            <img src="img/jogo-4.jpg" alt="God of War Ragnarök" loading="lazy" />
+            <img src="img/jogo-5.jpg" alt="NBA 2K27" loading="lazy" />
+            <img src="img/jogo-6.jpg" alt="Cyberpunk 2077" loading="lazy" />
+            <img src="img/jogo-7.jpg" alt="007 First Light" loading="lazy" />
+            <img src="img/jogo-8.jpg" alt="Forza Horizon 6" loading="lazy" />
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <p>© 2026 FullBox Games · Projeto acadêmico de loja de jogos online</p>
+      <p><a href="contato.html">Contato</a> · <a href="patrocinio.html">Anuncie aqui</a> · <a href="cadastro.html">Criar conta</a></p>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
